@@ -45,10 +45,11 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)100%), url('../img/fundo_liga_da_justica.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/fundo_Godzilla_vs_Kong3.jpg');
     
     height: 400px;
     background-size: cover;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
@@ -58,20 +59,16 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
-.titulo0{
-    margin-top: 10%;
+.titulo{
+    margin-top: 12%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.titulo1{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 .botao{
     background-color: rgba(0,0,0, .50) ;
@@ -93,4 +90,12 @@ header nav a:hover{
 
 .botao i{
         margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    max-width: 70%;
 }
