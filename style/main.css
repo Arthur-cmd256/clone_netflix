@@ -45,11 +45,10 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/fundo_Godzilla_vs_Kong3.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
     
     height: 400px;
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
 
     display: flex;
     flex-direction: column;
@@ -59,12 +58,12 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .titulo{
-    margin-top: 12%;
+    margin-top: 25%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -98,4 +97,10 @@ header nav a:hover{
 
 .filme-principal .container{
     max-width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
